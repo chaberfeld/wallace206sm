@@ -1,0 +1,72 @@
+#header {
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:2px;
+}
+#left {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:36em;
+    width:50%;
+    float:left;
+    padding:5px; 
+}
+
+p {font-size:1.5em;
+    font-weight: bold;}
+
+em {color: red;}
+
+#pics {
+    width:50%;
+    height:35em; 
+    float:right;
+    padding:10px; 
+    overflow: hidden;
+}
+#footer {
+    background-color:blue;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:3px; 
+}
+
+h1 {color: white;
+}
+
+td {color:black;
+	font-size:1em;
+	padding: 2em 1.8em;
+	width: 8em;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: white;
+	font-weight: bold;
+    background-color: yellow;
+}
+
+#subtitle {
+	font-size: 2em;
+}
+
+li {font-size: .8em;
+
+}
+#slideshow { 
+    /* margin: 2px auto; */
+    position: relative; 
+    width: 65%; 
+    /* height: 50%; */
+    /* padding: 10px; */ 
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}

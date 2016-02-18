@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<title>206 Wallace Street </title>
+		 
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		 <link rel="stylesheet" href="layout-styles.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div id="header">
+			<H1>REAL ESTATE AUCTION <em>206-220 WALLACE STREET</em> NEW HAVEN CT</H1>
+			<h1> SATURDAY, OCTOBER 3rd NOON (INSPECTION 10AM-12PM)</h1>
+		</div>
+
+		<div id="left">
+			<p>Opportunity to purchase large single-story building in the heart
+				of New Haven's Mill River District. Approximately 43,000 sqft. Ceiling
+				height 14'. Parking lot approx. 1 acre. In area of mostly commercial 
+				buildings. Newly renovated store front & office. Possible uses: warehousing,
+				manufacturing, home-improvement or other large-space retailer. Could also
+				be subdivided.<br> Come & make an offer !
+				
+			</p>
+			<table>
+				<tr>
+					<td><a href="https://www.google.com/maps/place/206+Wallace+St,+New+Haven,+CT+06511/@41.31067,-72.9114479,17z/data=!3m1!4b1!4m2!3m1!1s0x89e7d9ce3add901d:0x1a177d3b7be8ebb8">Property Map</a>
+					<td><a href="Appraisal.pdf">Recent Appraisal</a>
+					<td><a href="20150917_134333.jpg">Floor Plan</a>
+					<td><a href="taxcard.html">Tax Card</a>
+				</tr>
+				<tr>
+					<td><a href="wallaceAuctionDet.pdf">Auction Details</a>
+					<td><a href="wallacePreAuction.pdf">Pre-auction Inspections</a>
+					<td><a href="environmental.html">Environmental</a>
+					<td><a href="Mill River Dist.html">Mill_River District</a>
+				</td>
+			</table>
+		</div>
+
+		<div id="pics">
+
+			<div id="slideshow">
+			   <div>
+			     <img src="img/135015m.jpg" -->   
+			   </div>
+			   <div>
+			     <img src="img/134940m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/135121m.jpg" -->		     
+			   </div>
+			   <div>
+			     <img src="img/135143m.jpg" -->
+			   </div>
+			   
+			   <div>
+			     <img src="img/135157m.jpg" -->   
+			   </div>
+			   <div>
+			     <img src="img/135242m.jpg" -->		     
+			   </div>
+			   <div>
+			     <img src="img/135407m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/135505m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/135704m.jpg" -->   
+			   </div>
+			   <div>
+			     <img src="img/135753m.jpg" -->		     
+			   </div>
+			   <div>
+			     <img src="img/140209m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/134341m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/134423m.jpg" -->   
+			   </div>
+			   <div>
+			     <img src="img/134517m.jpg" -->		     
+			   </div>
+			   <div>
+			     <img src="img/134553m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/134708m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/134841m.jpg" -->   
+			   </div>
+			   <div>
+			     <img src="img/134856m.jpg" -->		     
+			   </div>
+			   <div>
+			     <img src="img/140642m.jpg" -->
+			   </div>
+			   <div>
+			     <img src="img/140659m.jpg" -->
+			   </div>
+			   
+			</div>
+		</div>
+
+		<div id="footer">
+			
+				<p>2015</p>
+
+		</div>
+
+
+
+	</body>
+</html>
+
+<script>
+	$("#slideshow > div:gt(0)").hide();
+
+	setInterval(function() { 
+	  $('#slideshow > div:first')
+	    .fadeOut(1000)
+	    .next()
+	    .fadeIn(1000)
+	    .end()
+	    .appendTo('#slideshow');
+	},  3000);
+
+</script>
+
